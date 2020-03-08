@@ -6,20 +6,24 @@ class Car extends React.Component{
         this.state = {
             brand:'Ford',
             model: "Mustang",
-            colr:'red',
+            color:'red',
             yearOfModel:1992,
             dateOfCirculation:2004
         };
+    }
+    handleClick = ()=>{
+        this.setState({color:'blue'})
     }
     render(){
         return(
             <div>
             <h1>My {this.state.brand} Car</h1>
             <p>
-                It is a  {this.state.colr} 
+                It is a  {this.state.color} 
                 {this.state.model}
                 from {this.state.yearOfModel}
             </p>
+            <button type='button' onClick={this.handleClick} >Change Color</button>
             </div>
         )
     }
