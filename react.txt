@@ -1,0 +1,17 @@
+installer node js => https://nodejs.org/fr/download/
+installer npm => npm install --global npm
+ES6:
+Arrow function : hello = (val) => "Hello " + val;
+composant react = import React, { Component } from 'react';
+import './App.css';
+
+class App extends Component{
+ render() { 
+return (
+//contnu code blalbla 
+);
+}
+}
+export default App;
+les states : sont des attributes pour le composant  this.state = {color:'red'};
+les props : sont des parametres qu'on peut passer au composant ReactDOM.render(<Car test='myprops' />,document.getElementById('test'))
