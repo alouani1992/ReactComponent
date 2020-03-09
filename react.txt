@@ -15,3 +15,4 @@ return (
 export default App;
 les states : sont des attributes pour le composant  this.state = {color:'red'};
 les props : sont des parametres qu'on peut passer au composant ReactDOM.render(<Car test='myprops' />,document.getElementById('test'))
+Pour initialiser des parametres dans le constructeur

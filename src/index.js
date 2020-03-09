@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Car from './Car';
 import App from './App';
+import Header from './Header';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
