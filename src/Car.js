@@ -11,8 +11,13 @@ class Car extends React.Component{
             dateOfCirculation:2004
         };
     }
-    handleClick = ()=>{
-        this.setState({color:'blue'})
+    handleClick=()=>{
+        if(this.state.color ==='red'){
+        this.setState({color:'blue'});
+        }
+        else{
+        this.setState({color:'red'});
+        }
     }
     render(){
         return(
@@ -28,6 +33,7 @@ class Car extends React.Component{
         )
     }
 }
+
 class Garage extends React.Component{
     render(){
         const carInfo = {name:"Ford",model:"fista"};
