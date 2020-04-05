@@ -8,6 +8,7 @@ import HeaderColor        from './HeaderColor';
 import Football           from './Football';
 import Myform             from './Myform';
 import * as serviceWorker from './serviceWorker';
+import Axios              from './axios/Axios';
 import './style/App.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -22,6 +23,7 @@ ReactDOM.render(<Car test='Garaa' />,document.getElementById('test'))
 ReactDOM.render(<Header favcol='Green' />,document.getElementById('color'));
 ReactDOM.render(<HeaderColor />,document.getElementById('hcolor'));
 ReactDOM.render(<Myform />,document.getElementById('foot'));
+ReactDOM.render(<Axios />,document.getElementById('api'));
 
 
 // If you want your app to work offline and load faster, you can change

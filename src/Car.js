@@ -46,4 +46,4 @@ class Garage extends React.Component{
         }
     }
     export default Garage ;
-ReactDOM.render(<Garage />,document.getElementById('root'));
+//ReactDOM.render(<Garage />,document.getElementById('root'));
